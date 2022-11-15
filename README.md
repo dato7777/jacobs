@@ -48,7 +48,7 @@ Front Installation:
   cd Front
 2) And then :\
   cd my-app
-  ### MY GITHUB ALREADY HAS ALL NODE MODULES, SO IF YOU ALREADY HAVE NODE MODULES(CHECK IN FOLDER "FRONT/MY-APP"), PLEASE SKIP STEP 3
+  ### MY GITHUB CODE ALREADY HAS ALL NODE MODULES, SO IF YOU ALREADY HAVE NODE MODULES(CHECK IN FOLDER "FRONT/MY-APP"), PLEASE SKIP STEP 3
 3) Run package installation commands one by one:\
   npm i \
   npm install axios \
