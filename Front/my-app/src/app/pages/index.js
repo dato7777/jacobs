@@ -35,12 +35,11 @@ const Homepage = () => {
             <WelcomeText>
               "Jacobs' Dreams" is a great way to order from home when you are thirsty!
               Enjoy a variety of categories to choose from that help meet your needs in your journey to happinness.
-              You can order our highest grade alcohol and non alcohol drinks that you want with our user-friendly interface.
+              You can order my highest grade alcohol and non alcohol drinks that you want with my user-friendly interface.
               Please drink responsibly. :)
             </WelcomeText>
             <WelcomeText>
-              The order will be sent straight to your door step in less then
-              1hr pre-packed for you in portions.
+              The order will be sent straight to your door step in less then 1hr.
             </WelcomeText>
           </WelcomeContentText>
         </WelcomeContent>
