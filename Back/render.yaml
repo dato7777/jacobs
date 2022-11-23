@@ -1,7 +1,7 @@
 services:
 - type: web
   name: django-quick-start
-  env: Python_version
+  env: python
   plan: starter
   buildCommand: ./build.sh
   startCommand: gunicorn config.wsgi:application
@@ -19,7 +19,7 @@ services:
       generateValue: true
     - key: DJANGO_SETTINGS_MODULE
       value: config.settings.production
-    - key: Python_version
+    - key: PYTHON_VERSION
       value: 3.10.2
 
 
