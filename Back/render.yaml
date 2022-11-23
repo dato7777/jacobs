@@ -19,6 +19,9 @@ services:
       generateValue: true
     - key: DJANGO_SETTINGS_MODULE
       value: config.settings.production
+    - key: Python_version
+      value: 3.10.2
+
 
 databases:
 - name: django-quick-start
