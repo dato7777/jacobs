@@ -1,7 +1,7 @@
 services:
 - type: web
   name: django-quick-start
-  env: python3.10.2
+  env: Python_version
   plan: starter
   buildCommand: ./build.sh
   startCommand: gunicorn config.wsgi:application
