@@ -2,9 +2,13 @@ import {createSlice } from '@reduxjs/toolkit';
 // import { addProduct, getProducts, deleteProduct } from './ProductAPI ';
 // import { addProductAsync, selectProducts, getProductsAsync } from './ProductsSlice'
 
-const initialState =  {
+const initialState =  localStorage.getItem('cartItems') === null ? {
   myCartItemsCount: 0,
-  myCartItems: [],
+  myCartItems: localStorage.setItem("cartItems", JSON.stringify([])),
+  itemsQuantity: 1
+}:{
+  myCartItems:JSON.parse(localStorage.getItem('cartItems')),
+  myCartItemsCount: JSON.parse(localStorage.getItem('cartItems')).length,
   itemsQuantity: 1
 }
 export const ShoppingCartSlice = createSlice({
